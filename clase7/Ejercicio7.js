@@ -14,22 +14,18 @@ function Calcular(){
 function numMayor(num1,num2,num3){
     if(num1>num2){
         if(num1>num3){
-            alert('El número mayor es' +num1 );
-            
+            alert('El número mayor es ' +num1 ); 
         }
         else{
-            alert('El número mayor es' +num3 );
-            console.log('El número mayor es' + num3);
-    
-            
+            alert('El número mayor es ' +num3 );
+        }
     }
     else{
         if(num2>num3){
-            alert('El número mayor es' +num2 );
+            alert('El número mayor es ' +num2 );
         }
         else{
-            alert('El número mayor es' +num3 );
+            alert('El número mayor es ' +num3 );
         }
-
     }
 }
